@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Optii";
+  src: url(OPTIImprovNewWideNine.otf);
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.firstPage {
+  margin-top: 15%;
+}
+
+.header {
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+  background-color: blue;
+  width: 35%;
+}
+
+.links a {
+  text-decoration: none;
+  color: lightgrey;
+}
