@@ -8,6 +8,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Optii";
+  box-sizing: border-box;
 }
 
 .firstPage {
@@ -36,4 +37,17 @@ body {
   color: lightgrey;
   font-weight: lighter;
   font-size: 85%;
+}
+
+.quoteBox {
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  text-align: left;
+  margin-top: 4%;
+  width: 19%;
+  font-size: 85%;
+  color: lightgrey;
 }
