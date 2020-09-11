@@ -7,6 +7,7 @@ body {
   margin: 0;
   background-color: black;
   color: white;
+  font-family: "Optii";
 }
 
 .firstPage {
@@ -15,15 +16,24 @@ body {
 
 .header {
   text-align: center;
+  font-weight: 400;
+}
+
+.linksBox {
+  display: flex;
+  justify-content: center;
 }
 
 .links {
   text-align: center;
-  background-color: blue;
-  width: 35%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .links a {
   text-decoration: none;
   color: lightgrey;
+  font-weight: lighter;
+  font-size: 85%;
 }
