@@ -1,8 +1,10 @@
+/* Font */
 @font-face {
   font-family: "Optii";
   src: url(OPTIImprovNewWideNine.otf);
 }
 
+/* body */
 body {
   margin: 0;
   background-color: black;
@@ -11,8 +13,11 @@ body {
   box-sizing: border-box;
 }
 
+/* Front Page */
 .firstPage {
   margin-top: 15%;
+  height: 70vh;
+  margin-bottom: 0;
 }
 
 .header {
@@ -50,4 +55,15 @@ body {
   width: 19%;
   font-size: 85%;
   color: lightgrey;
+}
+
+/* Second Page */
+.secondPage {
+  margin-top: 0;
+  margin-left: 10%;
+}
+
+.secondPage p {
+  font-weight: 100;
+  font-family: sans-serif;
 }
