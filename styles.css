@@ -5,6 +5,10 @@
 }
 
 /* body */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: black;
@@ -20,9 +24,33 @@ body {
   margin-bottom: 0;
 }
 
+.headerBox {
+  display: flex;
+  justify-content: center;
+  transition: .5s;
+}
+
+.headerBox:hover {
+  opacity: .5;
+}
+
+.headerBox:hover ~ .linksBox a {
+  opacity: 1;
+}
+
+.headerBox:hover ~ .quoteBox .quote {
+  opacity: 1;
+}
+
 .header {
   text-align: center;
   font-weight: 400;
+  width: fit-content;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
 }
 
 .linksBox {
@@ -32,17 +60,22 @@ body {
 
 .links {
   text-align: center;
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
 }
 
 .links a {
   text-decoration: none;
-  color: lightgrey;
+  color: white;
   font-weight: lighter;
   font-size: 85%;
-  opacity: .8;
+  opacity: .6;
+  transition: .5s;
+}
+
+.links a:hover {
+  opacity: 1;
 }
 
 .quoteBox {
@@ -53,10 +86,20 @@ body {
 .quote {
   text-align: left;
   margin-top: 4%;
-  width: 19%;
+  width: 22%;
   font-size: 85%;
-  color: lightgrey;
-  opacity: .8;
+  transition: .5s;
+  opacity: .6;
+}
+
+.quote a {
+  text-decoration: none;
+  color: white;
+  opacity: .6;
+}
+
+.quote:hover {
+  opacity: 1;
 }
 
 .quote p {
@@ -76,6 +119,16 @@ body {
 .secondPage p {
   font-weight: 100;
   font-family: sans-serif;
+}
+
+.secondHeader {
+  display: flex;
+  align-items: center;
+}
+
+.secondHeader h3 {
+  opacity: .6;
+  margin-left: 10%;
 }
 
 /* Contact & Stay Connected */
